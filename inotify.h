@@ -1,0 +1,25 @@
+#ifndef PROJECT4_INOTIFY_H
+#define PROJECT4_INOTIFY_H
+#include <libgen.h>
+#include "Tree.h"
+#include "copy_function.h"
+#include "operations_in_tree.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+#include <sys/stat.h>
+#include <unistd.h>
+#include <stdbool.h>
+#include <string.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+#include <dirent.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <errno.h>
+#include <string.h>
+#include <sys/types.h>
+#include <sys/inotify.h>
+#endif //PROJECT4_INOTIFY_H
+void function(i_node **,i_node **,tree **,tree **,int,char** ,char**);
